@@ -1,0 +1,123 @@
+.aboutMeContainer {
+    display: flex;
+    justify-content: center;
+    /* background-size: 40px 40px;
+    background-image: radial-gradient(circle, #696969 1px, rgba(0, 0, 0, 0) 1px); */
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.1) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 1px, transparent 1px);
+    background-size: 70px 70px;
+    width: 100%;
+    margin-top: var(--header-height);
+
+}
+
+.aboutMe {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 1000px;
+    padding: 45px;
+
+
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 26px;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+
+}
+
+#hello {
+    color: white;
+    -webkit-text-stroke-width: 5px;
+    -webkit-text-stroke-color: var(--emerald);
+    font-size: 100px;
+    margin: 0;
+    line-height: 100px;
+
+}
+
+.intro p {
+    margin: 0;
+    font-weight: 500;
+    -webkit-text-stroke: 8px white;
+    -webkit-text-fill-color: var(--text-color);
+    paint-order: stroke fill;
+    /* -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white; */
+}
+
+#builder {
+    color: var(--primary-color);
+    -webkit-text-stroke: 8px white;
+    /* Remove the stroke */
+    -webkit-text-fill-color: var(--primary-color);
+    /* -webkit-text-stroke-width: 2.5px;
+    -webkit-text-stroke-color: var(--emerald); */
+    font-weight: 800;
+}
+
+.eric img {
+    height: 300px;
+    width: auto;
+}
+
+.background {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: flex-start;
+    box-shadow: 5px 5px 10px #8a9fbe;
+    min-width: 250px;
+    border-radius: var(--border-radius);
+    padding: 5px 15px;
+    background-color: white;
+}
+
+.background h2 {
+    font-size: 20px;
+    color: var(--emerald);
+    /* -webkit-text-stroke-width: 2.5px;
+    -webkit-text-stroke-color: var(--emerald); */
+    font-weight: 900;
+    margin: 0;
+}
+
+.experience {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.employer {
+    background: none;
+    border: none;
+}
+
+.employer:active {
+    border-bottom: 2px solid gray;
+}
+
+.employer img {
+    width: auto;
+    height: 45px;
+}
+
+.education {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 110px;
+}
+
+.details {
+    border: 1px solid gray;
+}
