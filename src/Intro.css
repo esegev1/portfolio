@@ -18,6 +18,7 @@
     justify-content: center;
     max-width: 1000px;
     padding: 45px;
+    gap: 15px;
 
 
 }
@@ -97,19 +98,6 @@
     gap: 10px;
 }
 
-.employer {
-    background: none;
-    border: none;
-}
-
-.employer:active {
-    border-bottom: 2px solid gray;
-}
-
-.employer img {
-    width: auto;
-    height: 45px;
-}
 
 .education {
     display: flex;
@@ -120,4 +108,17 @@
 
 .details {
     border: 1px solid gray;
+}
+
+
+@keyframes pulseShadow {
+  0% {
+    box-shadow: 0 0 10px 4px #006742; /* Starting shadow state */
+  }
+  50% {
+    box-shadow: 0 0 20px #006742; /* Expanded/brighter shadow */
+  }
+  100% {
+    box-shadow: 0 0 10px 4px #006742; /* Returning to starting state */
+  }
 }
